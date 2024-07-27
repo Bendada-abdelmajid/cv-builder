@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
+import {
+  ClerkProvider,
+
+} from "@clerk/nextjs";
 
 const inter = Inter({ subsets: ["latin"] });
+const ibm = IBM_Plex_Serif({subsets:["latin"], weight:["500","600","700"], variable:"--ibm" });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +20,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+ 
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+
+      </head>
+      <body className={inter.className +" "+ ibm.variable}>
+      <ClerkProvider>
+        {children}
+        </ClerkProvider>
+        </body>
     </html>
+   
   );
 }
