@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button } from './ui/button'
+import { Button } from '@/components/ui/button'
 import Image from 'next/image'
-import { headers } from 'next/headers'
+
 
 type Props = {}
 const templates = [{

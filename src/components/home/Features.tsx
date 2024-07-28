@@ -1,21 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 
-/*
-{
-    title: "Automatic Summary Generator",
-    description: "Create a powerful resume profile or cover letter in one click. Writer’s block is no longer an obstacle. Try for free!"
-  },
-  {
-    title: "Approved Templates",
-    description: "Professionally-designed resume templates and examples. Just edit and download in 5 minutes."
-  },
 
-   {
-    title: "Cover Letters",
-    description: "Our cover letter builder works with the same ease and use of elegant templates as the resume creator."
-  }
-*/
 const features = [
   {
     title: "Easy Online Resume Builder",
