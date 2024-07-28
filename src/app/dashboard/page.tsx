@@ -1,12 +1,11 @@
 
-import Header from '@/components/Header'
 import Tabs from '@/components/dashboard/Tabs';
 import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Switch } from '@/components/ui/switch';
 import { UserButton } from '@clerk/nextjs';
 import { currentUser } from '@clerk/nextjs/server';
-import { LogOut, MoveRight, Plus } from 'lucide-react';
+import { LogOut, MoveRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
