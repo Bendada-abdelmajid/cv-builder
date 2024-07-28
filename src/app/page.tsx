@@ -1,9 +1,9 @@
-import Hero from "@/components/Hero";
+import Hero from "@/components/home/Hero";
 import Features from "@/components/home/Features";
-import Guides from "@/components/Guides";
-import Faq from "@/components/Faq";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import Guides from "@/components/home/Guides";
+import Faq from "@/components/home/Faq";
+import Header from "@/components/home/Header";
+import Footer from "@/components/home/Footer";
 
 
 export default function Home() {
